@@ -1,0 +1,36 @@
+.alert-box{
+    position: fixed;
+    z-index: 99999;
+    bottom: 10px;
+    right: 10px;
+    transition: 1s all;
+    transform: translateX(1000px);
+}
+.badge{
+    font-size: .8125rem;
+}
+.page-item .page-link, .page-item span{
+    border-radius: 1px !important;
+}
+.logo-login{
+    width: 150px;
+    position: relative;
+}
+.sub-login{
+    font-size: 16px;
+    letter-spacing: 0;
+    position: relative;
+}
+.sub-login:before{
+    content: "";
+    bottom: -12px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #8898aa;
+    position: absolute;
+    transition: .4s all;
+}
+.sub-login:hover:before{
+    width: 70px;
+}
